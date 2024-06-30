@@ -1,3 +1,30 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  h1 {
+    @apply text-slate-900 font-bold text-3xl;
+  }
+  h2 {
+    @apply text-slate-900 font-semibold text-2xl;
+  }
+  h3 {
+    @apply text-slate-900 font-semibold text-xl;
+  }
+  h4 {
+    @apply text-slate-900 font-semibold text-base;
+  }
+  h6 {
+    @apply text-slate-900 font-semibold text-sm;
+  }
+  p {
+    @apply text-slate-500 font-normal text-sm;
+  }
+  button {
+    @apply text-white bg-violet-500 text-base font-normal w-full h-9 rounded-md;
+  }
+  input {
+    @apply border border-slate-500 focus:border-violet-500 p-1 w-full rounded-lg mb-2;
+  }
+}
