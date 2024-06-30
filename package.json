@@ -6,9 +6,12 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "db:migrate": "npx prisma migrate dev --name dev",
+    "db:studio": "npx prisma studio"
   },
   "dependencies": {
+    "@prisma/client": "^5.16.1",
     "next": "^15.0.0-canary.42",
     "react": "^19.0.0-rc-3563387fe3-20240621",
     "react-dom": "^19.0.0-rc-3563387fe3-20240621"
@@ -17,6 +20,7 @@
     "eslint": "^8",
     "eslint-config-next": "14.2.4",
     "postcss": "^8",
+    "prisma": "^5.16.1",
     "tailwindcss": "^3.4.1"
   }
 }
