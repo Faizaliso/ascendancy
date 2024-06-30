@@ -28,3 +28,15 @@
     @apply border border-slate-500 focus:border-violet-500 p-1 w-full rounded-lg mb-2;
   }
 }
+
+@layer components {
+  .msg-success {
+    @apply mt-1 flex justify-center items-center p-1 bg-emerald-200 text-emerald-500 text-sm rounded-lg;
+  }
+  .msg-error {
+    @apply mt-1 flex justify-center items-center p-1 bg-rose-200 text-rose-600 text-sm rounded-lg;
+  }
+  .link {
+    @apply font-semibold text-violet-900;
+  }
+}
