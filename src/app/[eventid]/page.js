@@ -7,6 +7,7 @@ export default async function Page({ params }) {
     where: {
       id: params.eventid,
     },
+
   });
 
   return (
